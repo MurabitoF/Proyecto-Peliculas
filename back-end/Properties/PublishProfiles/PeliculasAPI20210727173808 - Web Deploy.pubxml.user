@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAATzspIBtGe0mfI0H1hVrvmAAAAAACAAAAAAAQZgAAAAEAACAAAAC6tOkf/LdRavBayhE0znM+jaOsYcukKu4ev3CgRXTR/gAAAAAOgAAAAAIAACAAAAA5jtwT7dOWiADf03AY6BH9TiygiZciCVtTA1nV1hxl+IAAAACxIhJToCBqhLRZ6AnfSeYwB2hmswFbuGxlCgjtySpMsjw+G3L1Eof6S4qaFGKsHEn2gUf7saocLENdmXIWy9Q9hImeyP3qIe+5+k74Evq6W2dkrYeZiJhea/T0mVLz+FcnKYZLlwBYtnG9Gi9WLhGbmBnvqsJnniiwGg2Bf2pt20AAAAClngiSTR3Ny0VwoCPNcbEVpRtxH/owS7CTtmu1lbGxAyVmPVo3l+qPG+L1gkwQFMSb/fYt/rQb/2I0z0c05h6X</EncryptedPassword>
+    <History>True|2021-07-27T21:13:21.0591822Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="back_end.ApplicationDbContext">
+      <Value>Data Source=tcp:back-enddbserver432.database.windows.net,1433%3bInitial Catalog=back-end_db%3bUser Id=francomur%40back-enddbserver432%3bPassword=AplicaciondePeliculas123.</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

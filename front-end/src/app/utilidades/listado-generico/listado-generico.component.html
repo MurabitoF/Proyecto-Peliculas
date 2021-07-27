@@ -1,0 +1,14 @@
+<div *ngIf="!listado">
+  <img
+    src="https://media.tenor.com/images/a742721ea2075bc3956a2ff62c9bfeef/tenor.gif"
+    alt=""
+  />
+</div>
+
+<div *ngIf="listado?.length === 0">
+  <p>No hay peliculas para mostrar</p>
+</div>
+
+<ng-container *ngIf="listado && listado.length > 0">
+  <ng-content select="[contenido]"></ng-content>
+</ng-container>

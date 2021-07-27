@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="PeliculasAPI20210727173808" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Franco\\Desktop\\Programacion\\Angular\\AngularPeliculas\\back-end\\obj\\Release\\net5\.0\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="back_end.ApplicationDbContext" description="" value="Data Source=tcp:back-enddbserver432.database.windows.net,1433;Initial Catalog=back-end_db;User Id=francomur@back-enddbserver432;Password=AplicaciondePeliculas123." tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\Franco\\Desktop\\Programacion\\Angular\\AngularPeliculas\\back-end\\obj\\Release\\net5\.0\\PubTmp\\EFSQLScripts\\back_end\.ApplicationDbContext\.sql$" />
+  </parameter>
+</parameters>
